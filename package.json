@@ -1,0 +1,24 @@
+{
+  "name": "variante-alta",
+  "version": "0.0.1",
+  "description": "Invariant, F1 flavored",
+  "main": "dist/variante-alta.cjs.js",
+  "module": "dist/variante-alta.esm.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "scripts": {
+    "build": "rollpkg build",
+    "prepublishOnly": "npm run build",
+    "test": "yarn jest",
+    "watch": "rollpkg watch"
+  },
+  "author": "Enrique Ortiz <hi@enriqueortiz.dev>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^26.0.23",
+    "jest": "^27.0.4",
+    "rollpkg": "^0.5.7",
+    "ts-jest": "^27.0.2",
+    "typescript": "^4.3.2"
+  }
+}
