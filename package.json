@@ -1,6 +1,6 @@
 {
   "name": "variante-alta",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Invariant, F1 flavored",
   "main": "dist/variante-alta.cjs.js",
   "module": "dist/variante-alta.esm.js",
